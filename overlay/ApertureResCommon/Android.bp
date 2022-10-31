@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "ApertureResCommon",
+    theme: "ApertureResCommon",
+    product_specific: true,
+}

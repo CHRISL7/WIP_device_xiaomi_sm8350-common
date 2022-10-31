@@ -130,7 +130,7 @@ PRODUCT_PACKAGES_DEBUG += \
 # Camera
 PRODUCT_PACKAGES += \
     libgui_vendor \
-    Snap
+    Aperture
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
@@ -391,6 +391,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
+    ApertureResCommon \
     CarrierConfigResCommon \
     FrameworksResCommon \
     SettingsResCommon \
